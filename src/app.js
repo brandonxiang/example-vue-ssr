@@ -22,9 +22,9 @@ export function createApp () {
   sync(store, router)
 
   Vue.use(MuseUI)
-Vue.use(VueAxios, axios)
-Vue.use(filters)
-Vue.config.productionTip = false
+  Vue.use(VueAxios, axios)
+  Vue.use(filters)
+  Vue.config.productionTip = false
 
   // create the app instance.
   // here we inject the router, store and ssr context to all child components,
